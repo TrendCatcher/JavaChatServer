@@ -15,13 +15,13 @@
     
 - SimpleChat Phase 2
     - Client side
-        '#quit' : 클라이언트를 종료시킨다. 프로그램을 종료시키기전 서버가 먼저 종료되어야함
-        '#logoff' : quit은 아니지만 서버와 클라이언트의 연결을 끊는다.
-        '#sethost<host>' : 클라이언트안의 setHost메소드를 호출, 클라이언트가 logoff되어 있을떄만 허용한다; 아니면 오류메시지 출력함
-        '#setport' : 클라이언트 안의 setPort메소드를 호출, '#setHost와 동일하다.' 
-        '#login' : 클라이언트와 서버를 연결. 
-        '#gethost' : 현재 호스트 이름을 나열
-        '#getport' : 련재 포트번호 나열
+        - '#quit' : 클라이언트를 종료시킨다. 프로그램을 종료시키기전 서버가 먼저 종료되어야함
+        - '#logoff' : quit은 아니지만 서버와 클라이언트의 연결을 끊는다.
+        - '#sethost<host>' : 클라이언트안의 setHost메소드를 호출, 클라이언트가 logoff되어 있을떄만 허용한다; 아니면 오류메시지 출력함
+        - '#setport' : 클라이언트 안의 setPort메소드를 호출, '#setHost와 동일하다.' 
+        - '#login' : 클라이언트와 서버를 연결. 
+        - '#gethost' : 현재 호스트 이름을 나열
+        - '#getport' : 련재 포트번호 나열
     - Server side :
     
 - SimpleChat Phase 3~4
