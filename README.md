@@ -5,15 +5,25 @@
 - VM ware 상에서 우분투를 활용하여 채팅서버를 구현
 - Phase 가 거듭될수록 다양한 기능이 추가됨을 터미널에서 `git diff` 명령어를 통하여 확인한다.   
 - 기능 요구 사항에 기재되지 않은 내용은 스스로 판단하여 구현한다.
+- Test Case를 통해 요구사항에 맞게 SW가 설계되었는지 검증한다.
 
 ## 📮 진행 내용
 
 - Simple notation for Server, Process, Thread
     - Client-Server Architecture의 이해
     - Server, Process, Thread 표기법
+    
 - SimpleChat Phase 2
     - Client side
-    - Server side
+        '#quit' : 클라이언트를 종료시킨다. 프로그램을 종료시키기전 서버가 먼저 종료되어야함
+        '#logoff' : quit은 아니지만 서버와 클라이언트의 연결을 끊는다.
+        '#sethost<host>' : 클라이언트안의 setHost메소드를 호출, 클라이언트가 logoff되어 있을떄만 허용한다; 아니면 오류메시지 출력함
+        '#setport' : 클라이언트 안의 setPort메소드를 호출, '#setHost와 동일하다.' 
+        '#login' : 클라이언트와 서버를 연결. 
+        '#gethost' : 현재 호스트 이름을 나열
+        '#getport' : 련재 포트번호 나열
+    - Server side :
+    
 - SimpleChat Phase 3~4
     - Client side
     - Server side
@@ -30,13 +40,12 @@
 
 
 ```
-BUILD SUCCESSFUL in 0s
+
 ```
 
 ---
 
-## 🚀 기능 요구 사항
-아래의 7가지 기능 요구 사항을 모두 해결해야 한다.
+## 🚀phase 2 기능 요구 사항
 
 1.
 2.
