@@ -7,6 +7,9 @@
 - Phase 가 거듭될수록 다양한 기능이 추가됨을 터미널에서 `git diff` 명령어를 통하여 확인한다.   
 - 기능 요구 사항에 기재되지 않은 내용은 스스로 판단하여 구현한다.
 - Test Case를 통해 요구사항에 맞게 SW가 설계되었는지 검증한다.
+# 결과
+![image](https://github.com/user-attachments/assets/0e9a5329-4c8f-47ac-aa56-c48ac282a2b0)
+
 
 ## 폴더 구조
 ```sh
