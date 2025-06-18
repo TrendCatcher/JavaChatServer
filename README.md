@@ -9,6 +9,7 @@
 - Test Case를 통해 요구사항에 맞게 SW가 설계되었는지 검증한다.
 # 결과
 ![image](https://github.com/user-attachments/assets/0e9a5329-4c8f-47ac-aa56-c48ac282a2b0)
+![image](https://github.com/user-attachments/assets/852f8b0a-0764-460c-8b1b-341c4dc95d6b)
 
 
 ## 폴더 구조
