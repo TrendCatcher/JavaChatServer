@@ -1,5 +1,7 @@
 # Mission - Chatting Server
 
+[ppt link] https://gamma.app/docs/-ylwic6d2sistg5u
+
 ## 🔍 진행 방식 및 개발 환경
 🎯 VM ware, Linux
 
