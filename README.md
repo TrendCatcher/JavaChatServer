@@ -13,21 +13,16 @@
 
 
 ## 폴더 구조
-```sh
-JavaBackEnd
-├─ src 
-   │  
-   ├─ client    //chat client의 인스턴스를 구조화 함
-   │      01. ChatClient.java   
-   │      02. ChatIFChatClient.java 
-   └─ common
-          01. ChatIF.java  // 클라이언트나 서버 UI에 객체를 출력할 때 사용되는 추상 메소드를 implement하는 인터페이스
-    │
-    │
-    └─ ClientGUI.java   // chat client를 위한 UI 설계
-    │
-    │
-    └─ SimpleChatClientFrame.java // 서버 UI와 서버 인스턴스의 생성
+📦JavaChatServer
+ ┣ 📂src
+ ┃ ┣ 📂main
+ ┃ ┃ ┣ 📂java
+ ┃ ┃ ┃ ┣ 📜ChatClient.java
+ ┃ ┃ ┃ ┣ 📜ChatServer.java
+ ┃ ┃ ┃ ┗ 📜ChatServerThread.java
+ ┃ ┗ 📂resources
+ ┗ 📜README.md
+
 ```
 ## 📮 진행 내용
 
